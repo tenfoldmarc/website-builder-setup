@@ -14,12 +14,12 @@ Claude will handle the rest.
 
 **Or do it yourself:**
 
-Mac/Linux:
+Mac/Linux in the terminal:
 ```bash
 git clone https://github.com/tenfoldmarc/website-builder-setup.git ~/.claude/commands/website-builder-setup
 ```
 
-Windows:
+Windows Terminal:
 ```bash
 git clone https://github.com/tenfoldmarc/website-builder-setup.git %USERPROFILE%\.claude\commands\website-builder-setup
 ```
