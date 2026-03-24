@@ -6,6 +6,30 @@ Built by [@tenfoldmarc](https://instagram.com/tenfoldmarc)
 
 ## Install
 
+**Easiest way:** Open Claude Code and say:
+
+> Install this skill for me: https://github.com/tenfoldmarc/website-builder-setup
+
+Claude will handle the rest.
+
+**Or do it yourself:**
+
+Mac/Linux:
+```bash
+git clone https://github.com/tenfoldmarc/website-builder-setup.git ~/.claude/commands/website-builder-setup
+```
+
+Windows:
+```bash
+git clone https://github.com/tenfoldmarc/website-builder-setup.git %USERPROFILE%\.claude\commands\website-builder-setup
+```
+
+Then type `/website-builder-setup` in Claude Code to get started.
+
+---
+
+## OLD INSTALL (REMOVED)
+
 Run this in your terminal:
 
 ```bash
