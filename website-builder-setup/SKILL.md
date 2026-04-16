@@ -62,7 +62,7 @@ uipro init --ai claude 2>&1
 
 ---
 
-### Step 3: Install Framer Motion Skill
+### Step 3: Install Framer Motion
 
 > **Step 2 of 3: Framer Motion**
 >
@@ -72,15 +72,11 @@ uipro init --ai claude 2>&1
 
 Run:
 ```bash
-claude install-skill https://github.com/secondsky/claude-skills -- --name motion 2>&1
+npm install framer-motion 2>&1
 ```
 
 - On success → "Framer Motion is installed. Your sites will have real animations now."
-- On failure → try the backup approach:
-```bash
-npx -y @lobehub/market-cli skills install secondsky-claude-skills-motion --agent claude-code 2>&1
-```
-- If both fail → "Couldn't install automatically. You can try manually: `claude install-skill https://github.com/secondsky/claude-skills -- --name motion`. Moving on."
+- On failure → "Hit a snag. You can try manually later: `npm install framer-motion`. Moving on."
 
 ---
 
