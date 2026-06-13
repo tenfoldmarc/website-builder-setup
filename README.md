@@ -21,7 +21,7 @@ git clone https://github.com/tenfoldmarc/website-builder-setup.git ~/.claude/com
 
 Windows Terminal:
 ```bash
-git clone https://github.com/tenfoldmarc/website-builder-setup.git %USERPROFILE%\.claude\commands\website-builder-setup
+git clone https://github.com/tenfoldmarc/website-builder-setup.git $env:USERPROFILE\.claude\commands\website-builder-setup
 ```
 
 Then type `/website-builder-setup` in Claude Code to get started.
